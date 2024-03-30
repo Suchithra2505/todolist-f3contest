@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-do-list_inlocalstorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Add Item Section -->
+    <h1>To-Do-List</h1>
+    <div id="add-item-section">
+        <input type="text" id="item-name" placeholder="Item Name">
+        <input type="date" id="item-date" placeholder="Deadline">
+        <select id="priority" placeholder="Priority">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+        <button id="add-item-btn">Add Item</button>
+    </div>
+
+    <!-- Today's Tasks Section -->
+    <h5>TODAY'S To-Do-List</h5>
+    <div id="today-tasks-section" class="task-section">
+        
+        <!-- Display today's tasks here -->
+    </div>
+    <h5>Future To-Do-List</h5>
+    <!-- Future Tasks Section -->
+    <div id="future-tasks-section" class="task-section">
+        
+        <!-- Display future tasks here -->
+    </div>
+    <h5>Completed To-Do-List</h5>
+    <!-- Completed Tasks Section -->
+    <div id="completed-tasks-section" class="task-section">
+        <!-- Display completed tasks here -->
+    </div>
+<script src="script1.js"></script>
+</body>
+</html>
